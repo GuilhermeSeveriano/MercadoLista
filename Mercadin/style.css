@@ -1,0 +1,122 @@
+@font-face{
+    font-family: fontemercado;
+    src: url(../Fonts/PoetsenOne-Regular.ttf)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fontemercado;
+
+}
+
+.cabecalho{
+    background-color: rgb(10, 77, 77);
+    text-align: center;
+    padding: 1.4em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffff;
+    
+
+}
+
+.lista-cadastro{
+    display: flex;
+    margin: 1em;   
+    justify-content: center;
+    
+
+
+}
+
+.lista-cadastro input[type=text] {
+    flex: 1;
+    height: 3.5em;
+    margin: 1em;
+    padding-left: 20px;
+   
+
+}
+
+.lista-cadastro input[type=number] {
+    height: 3.5em;
+    margin: 1em;
+    padding-left: 20px;
+   
+
+}
+
+.lista-cadastro input[type=submit]{
+  
+    
+    height: 3.5em;
+    width: 5em;
+    margin: 1em; 
+
+}
+
+.produtos{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+    border-color: rgb(166, 176, 185);
+    justify-content: space-around;
+    font-size: 1.2em;
+    
+
+}
+
+.grupoproduto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5em;
+
+}
+
+.precoProduto{
+    background-color: rgb(10, 77, 77);
+    padding: 0.5em;
+    border-radius: 20px;
+    color: #ffff;
+    margin-right: 3em;
+    
+}
+
+.nomeProduto{
+    display: flex;
+    align-items: center;
+    margin-left: 3em;
+    
+    
+}
+
+.total{
+    display: flex;
+    justify-content: space-around;
+    margin: 2em;
+}
+
+.total h2{
+    background-color: rgba(250, 113, 113, 0.925);
+    padding: 1em;
+    border-radius: 5em;
+    font-size: 1.2em;
+}
+
+.botao{
+    border-radius: 3em;
+    width: 10em;
+    background-color: rgba(250, 113, 113, 0.925) ;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    
+}
+
+.botao:hover{
+    background-color: #fd3b3b;
+}
